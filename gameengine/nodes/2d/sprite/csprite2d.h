@@ -2,11 +2,9 @@
 #define CSPRITE2D_H
 
 #include <QString>
-#include "mainwindow.h"
-#include "ui_mainwindow.h"
 
 
-class CSprite2D: public Ui::MainWindow
+class CSprite2D
 {
 public:
     CSprite2D();
