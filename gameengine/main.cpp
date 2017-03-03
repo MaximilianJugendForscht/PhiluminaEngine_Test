@@ -1,12 +1,10 @@
-#include "ui_mainwindow.h"
+#include "mainwindow.h"
 #include <QApplication>
 
 
 int main(int argc, char *argv[]) {
    QApplication app(argc, argv);
-   QMainWindow *window = new QMainWindow;
-   Ui::MainWindow ui;
-   ui.setupUi(window);
+   MainWindow *window = new MainWindow;
 
    window->show();
    return app.exec();
